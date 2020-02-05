@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #262626;
+	font-family: sans-serif;
+	background-image: url(images/comic.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    background-position: left top;
+    background-position: bottom;
+}
+.s-m{
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+}
+.s-m a{
+	display: inline-flex;
+	width: 40px;
+	height: 40px;
+	background: #2c3e50;
+	color: white;
+	margin: 0 6px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+	text-decoration: none;
+}
+.s-m a:hover{
+	background:;
+}
+.s-m a i{
+	transition: 0.4s all;
+}
+.s-m a:hover > i{
+	transform: scale(1.6) 
+}
+/* menubalk */
+#balk {
+position: absolute;
+width: 80%;
+height: 15%;
+top: 5%;
+left: 5%;
+padding-right: 5%;
+padding-left: 5%;
+}
+
+#balk div{
+  float: left;
+  background-color: yellow;
+  border: 5px solid black;
+  height: 60%;
+  width: 15%;
+  position: relative;
+  top: 5%;
+  margin-left: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Lakki Reddy', cursive;
+  transition: 0.3s;
+}
+
+#balk a{
+  text-decoration: none;
+  color: black;
+
+  transition: 0.3s;
+}
+
+
+#balk div:hover{
+  background-color: black;
+  transition: 0.3s;
+
+}
+
+#balk div a:hover{
+  color: yellow;
+    scale: 1.2;
+    transition: 0.3s;
+}
+
+#balk a{
+position: relative;
+display: flex;
+justify-content: center;
+top: 15%;
+font-size: 50px;
+}
+
+#about{
+    position: absolute;
+	left: 364px;
+	top: 160px;
+	text-decoration: underline;
+}
+.Bravo{
+	position: absolute;
+	right: -670px;
+	height: 450px;
+	top: 14px;
+ 
+}
+#about_text{
+	position: absolute;
+	font-size: 22px;
+	text-align: center;
+	left: 52px;
+	top: 220px;
+}
+.Vlag{
+	position: absolute;
+	top: -237px;
+	right: -745px;
+}
+#logo{
+  position: absolute;
+  width: 100px;
+  left: 60px;
+  top: 25px;
+  
+}
+
+

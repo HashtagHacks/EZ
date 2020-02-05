@@ -1,0 +1,322 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+    background-color: lightblue;
+    overflow: hidden;
+
+}
+
+#forum{
+  position: absolute;
+  top: 82%;
+  left: 54%;
+}
+/* johnny die door de laptop crasht */
+#crash{
+  position: absolute;
+  top:35%;
+  left:50%;
+}
+/* het doorzichtige logo */
+#logo{
+  position: absolute;
+  opacity: 0.3;
+  top: 2%;
+  left: 90%;
+  height: 20%;
+  width: 10%;
+}
+/* het vak rondom johnny en de tekstwolk */
+#johnny{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 70%;
+  width: 20%;
+}
+/* johnny die tegen je scherm leunt */
+#john{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+/* wolk */
+#tekstvak{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  left: 0%;
+  z-index: 1;
+}
+
+#tekstwolk{
+  position: absolute;
+  left: 80%;
+  z-index: 2;
+  height: 25%;
+  width: 60%;
+}
+/* tekst */
+#johntext {
+  font-family: 'Lilita One', cursive;
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  font-size: 25px;
+  z-index: 3;
+}
+
+/* probeer je info opnieuw te typen */
+#wrongtext{
+  font-family: 'Baloo Bhai', cursive;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  font-size:80px;
+
+}
+
+/* menubalk */
+#balk {
+position: absolute;
+width: 80%;
+height: 15%;
+top: 5%;
+left: 5%;
+padding-right: 5%;
+padding-left: 5%;
+}
+
+#balk div{
+  float: left;
+  background-color: yellow;
+  border: 5px solid black;
+  height: 60%;
+  width: 15%;
+  position: relative;
+  top: 5%;
+  margin-left: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'Lakki Reddy', cursive;
+  transition: 0.3s;
+}
+
+#balk a{
+  text-decoration: none;
+  color: black;
+
+  transition: 0.3s;
+}
+
+
+#balk div:hover{
+  background-color: black;
+  transition: 0.3s;
+
+}
+
+#balk div a:hover{
+  color: yellow;
+    scale: 1.2;
+    transition: 0.3s;
+}
+
+#balk a{
+position: relative;
+display: flex;
+justify-content: center;
+top: 15%;
+font-size: 50px;
+}
+
+#slideshow{
+position: absolute;
+top: 20%;
+left: 32%;
+border: 1px solid black;
+width: 35%;
+height: 60%;
+
+
+}
+
+.johnfoto{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.mySlides.fade div:hover{
+  transition: 0.3s;
+  transform: scale(1.6);
+  cursor: pointer;
+}
+
+
+/* inlog gedoe */
+.login {
+    width: 800px;
+    background-color: #ffffff;
+    margin: 100px auto;
+
+}
+
+
+
+.login h1 {
+    text-align: center;
+    color: purple;
+    font-size: 36px;
+    padding: 20px 0 20px 0;
+}
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+.login form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+.login form input[type="password"], .login form input[type="text"] {
+    width: 310px;
+    height: 50px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+.login form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+  margin-top: 20px;
+    background-color: purple;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    transition: background-color 0.2s;
+}
+.login form input[type="submit"]:hover {
+  background-color: yellow;
+  color: black;
+    transition: background-color 0.2s;
+}
+
+.navtop {
+  background-color: purple;
+  margin-top: -8px;
+  height: 60px;
+  width: 100%;
+  border: 0;
+}
+.navtop div {
+  display: flex;
+  margin: 0 auto;
+  width: 1000px;
+  height: 100%;
+}
+.navtop div h1, .navtop div a {
+  display: inline-flex;
+  align-items: center;
+}
+.navtop div h1 {
+  flex: 1;
+  font-size: 24px;
+  padding: 0;
+  margin: 0;
+  color: #eaebed;
+  font-weight: normal;
+}
+.navtop div a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #c1c4c8;
+  font-weight: bold;
+}
+.navtop div a i {
+  padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+  color: #eaebed;
+}
+body.loggedin {
+  background-image: 
+}
+.content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.content h2 {
+  margin: 0;
+  padding: 25px 0;
+  font-size: 50px;
+  border-bottom: 1px solid #e0e0e3;
+  color: #4a536e;
+}
+.content > p, .content > div {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+  margin: 25px 0;
+  padding: 25px;
+  background-color: #fff;
+  font-size: 50px;
+  font-family: 'Supermercado One', cursive;
+
+}
+
+.content > p table td, .content > div table td {
+  padding: 5px;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+  font-weight: bold;
+  color: #4a536e;
+  padding-right: 15px;
+}
+.content > div p {
+  padding: 5px;
+  margin: 0 0 10px 0;
+}
+
+.title h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+.s-m{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+.s-m a{
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  background: #2c3e50;
+  color: white;
+  margin: 0 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  text-decoration: none;
+}
+
+.s-m a i{
+  transition: 0.4s all;
+}
+.s-m a:hover > i{
+  transform: scale(1.6) 
+}

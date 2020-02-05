@@ -1,0 +1,35 @@
+.posts-wrapper {
+  position: relative;
+  margin: 0px 20%;
+
+  border: 5px solid black;
+}
+.post {
+
+  padding: 15px 10px;
+  border: 1px solid green;
+}
+
+}
+.fa {
+  font-size: 1.2em;
+}
+.fa-thumbs-down, .fa-thumbs-o-down {
+  transform:rotateY(180deg);
+}
+
+i {
+  color: blue;
+}
+
+.post-info{
+  left: 0;
+  top: 15px;
+  position: relative;
+padding-top: 15px;
+}
+
+.post h1{
+  position: relative;
+  top: -30px;
+}
